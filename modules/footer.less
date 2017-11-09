@@ -1,0 +1,35 @@
+
+@dark-13: #131313;
+
+.outer-wrap-footer {
+    background-color: @dark-13;
+    color: #fff;
+    padding: 1em;
+}
+
+.footer-column {
+    & .footer-column-2 {
+        border-right: 1px solid #fff;
+        border-left: 1px solid #fff;
+    }
+
+    & h4 {
+        text-align: center;
+    }
+
+    & ul {
+        list-style: none;
+    }
+}
+
+@media (max-width: @small-screen) { /* TODO: SET WIDTH AS VARIABLE  */
+    .footer-column {
+        float: none;
+        width: auto;
+        border-bottom: 1px solid #fff;
+        & .footer-column-2 {
+            border-left: none;
+            border-right: none;
+        }
+    }
+}

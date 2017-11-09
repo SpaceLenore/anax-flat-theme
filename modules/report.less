@@ -1,0 +1,28 @@
+.inner-wrap-main {
+
+    & .row {
+        & .main {
+            padding-bottom: 1em;
+            width: auto;
+        }
+    }
+
+}
+
+@media (max-width: @medium-sceen) { /* TODO: SET WIDTH AS VARIABLE */
+    .sidebar-left {
+        float: none;
+        width: 100%;
+        & .toc {
+            width: 100%;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            & li {
+                padding: 5px;
+                list-style: none;
+            }
+        }
+    }
+}

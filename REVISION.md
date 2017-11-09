@@ -1,6 +1,11 @@
 Revision history
 ===============================
 
+v2.0.0 (2017-11-09)
+-------------------------------
+* Created my custom base for the theme
+* Added noramlize.css
+
 
 v0.2.2 (2017-11-07)
 -------------------------------

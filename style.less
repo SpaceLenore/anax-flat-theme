@@ -1,21 +1,65 @@
-/** 
+/**
 * Anax Flat theme.
 */
 @import url(modules.less);
 
+/** --------------------------------------------------------------
+ *  LESS VARIABLES
+ */
 
+@primary-theme-color: #3498db;
+@large-screen: 1300px;
+@medium-sceen: 970px;
+@small-screen: 600px;
 
 /** --------------------------------------------------------------
  *  Logo images
  */
+
 .logo-1 {
     position: absolute;
     top: 70px;
-    left: -140px;
+    left: -140;
 }
 
 .site-logo-text-icon {
     img {
-        vertical-align: bottom;
+        vertical-align: top;
+    }
+}
+
+.article {
+    & h1 {
+        color: @primary-theme-color;
+    }
+    & h2 {
+        color: @primary-theme-color;
+        font-style: italic;
+    }
+    & h3 {
+        color: @primary-theme-color;
+        font-style: italic;
+    }
+    & h4 {
+        color: @primary-theme-color;
+        font-style: italic;
+    }
+    & h5 {
+        color: @primary-theme-color;
+        font-style: italic;
+    }
+    & h6 {
+        color: @primary-theme-color;
+        font-style: italic;
+    }
+}
+
+a {
+    color: @primary-theme-color;
+}
+
+.article{
+    img {
+        width: 100%;
     }
 }
