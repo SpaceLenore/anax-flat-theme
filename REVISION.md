@@ -1,6 +1,11 @@
 Revision history
 ===============================
 
+v3.0.0 (2017-11-23)
+* Grids galore
+* Typography
+* moved byline code from byline.md to byline.less
+
 v2.0.0 (2017-11-09)
 -------------------------------
 * Created my custom base for the theme
