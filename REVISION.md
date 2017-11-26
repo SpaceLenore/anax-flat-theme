@@ -1,7 +1,14 @@
 Revision history
 ===============================
 
+v4.0.0
+-------------------------------
+* Multiple themes
+* Updated breadcrumb module
+* Updated makefile to compile all stylesheets
+
 v3.0.0 (2017-11-23)
+-------------------------------
 * Grids galore
 * Typography
 * moved byline code from byline.md to byline.less

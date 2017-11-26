@@ -1,0 +1,121 @@
+/**
+* Anax Flat theme.
+*/
+@import url(modules.less);
+
+/** --------------------------------------------------------------
+ *  LESS VARIABLES
+ */
+
+@primary-theme-color: #000;
+
+
+@large-screen: 1300px;
+@medium-sceen: 970px;
+@small-screen: 600px;
+
+/** --------------------------------------------------------------
+ *  Logo images
+ */
+
+.logo-1 {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 70px;
+    left: -140;
+}
+
+.site-logo-text-icon {
+    img {
+        vertical-align: top;
+    }
+}
+
+    /* CUSTOM ROW HEIGHTS FOR ROUTES */
+    .route-typography {
+        & .inner-wrap-main {
+            & .row {
+                height: @magicNumber * 50;
+            }
+        }
+    }
+
+.article {
+    & h1 {
+        font-size: @fontSizeH1;
+        height: @magicNumber * 2;
+        margin-top: @magicNumber - 1px;
+        color: @primary-theme-color;
+    }
+    & h2 {
+        margin-top: @magicNumber;
+        margin-bottom: @magicNumber;
+        color: @primary-theme-color;
+        font-style: italic;
+    }
+    & h3 {
+        margin-top: @magicNumber;
+        color: @primary-theme-color;
+        font-style: italic;
+    }
+    & h4 {
+        margin-top: @magicNumber;
+        color: @primary-theme-color;
+        font-style: italic;
+    }
+    & h5 {
+        margin-top: @magicNumber;
+        color: @primary-theme-color;
+        font-style: italic;
+    }
+    & h6 {
+        margin-top: @magicNumber;
+        color: @primary-theme-color;
+        font-style: italic;
+    }
+    & p {
+        margin-top: @magicNumber;
+    }
+}
+
+a {
+    color: @primary-theme-color;
+}
+
+.article {
+    img {
+        width: 100%;
+    }
+    .indeximage{
+        height: @magicNumber * 14;
+    }
+}
+
+body ol p, body ul p {
+    line-height: @magicNumber;
+}
+body pre {
+    line-height: @magicNumber;
+
+}
+.code {
+    margin-top: @magicNumber;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.gridpage{
+    float: right !important;
+    display: inline-block;
+    .column(9);
+}
+.sidebar-left{
+    width: auto;
+    display: block;
+    .column(3);
+    .content{
+        padding-left: 5px;
+        border: 1px solid @primary-theme-color;
+    }
+}

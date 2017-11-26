@@ -7,13 +7,16 @@
  *  LESS VARIABLES
  */
 
-//@primary-theme-color: #3498db;
-@primary-theme-color: #555;
-@linkcolor: #ccc;
-@bghighlight: #eee;
-@linkcolor: @primary-theme-color;
+
+@bgcolor: #71BFC3;
+@primary-theme-color: #FFD070;
+@linkcolor: #E04B47;
 
 html{
+    background: @bgcolor;
+    .site-header li {
+        color: @linkcolor;
+    }
     a {
         color: @linkcolor;
     }

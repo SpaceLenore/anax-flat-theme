@@ -1,0 +1,26 @@
+/**
+* Anax Flat theme.
+*/
+@import url(base.less);
+
+/** --------------------------------------------------------------
+ *  LESS VARIABLES
+ */
+
+@primary-theme-color: #be6ddf;
+@linkcolor: darken(#be6ddf, 10%);
+@bgcolor: #2c3e50;
+@bghighlight: #123150;
+@textcolor: #fff;
+
+html{
+    background-color:  @bgcolor;
+    color: @textcolor;
+    code {
+        background-color: @bghighlight !important;
+        border: 1px solid average(@bgcolor, @bghighlight);
+    }
+    a {
+        color: @linkcolor;
+    }
+}
