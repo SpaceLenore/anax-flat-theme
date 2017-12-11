@@ -1,6 +1,13 @@
 Revision history
 ===============================
 
+v5.0.0
+-------------------------------
+* Added figure.less to make it responsive
+* Fixed figure.less with figure-custom.less
+* Added both to list of modules
+* Changed 'width: 100%;' to use max-width in base.less to make it responsive
+
 v4.0.0
 -------------------------------
 * Multiple themes
